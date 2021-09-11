@@ -14,8 +14,12 @@ body {
 	image-rendering: optimizeQuality;
 	shape-rendering: geometricPrecision;
 	margin-bottom: 0px;
-}
+    background-color: #7289da;
+    background: url(img/landing.png);
+    background-size: cover;
+	background-position: bottom center;
 
+}
 li {
 	list-style: disc;
 	font-family: "text", sans-serif;
@@ -377,5 +381,15 @@ img.emoji {
 }
 /**selection*/
 ::selection {
-	background-color: #ffffff;
+	background-color: rgb(252, 255, 60);
 }
+
+
+img.emoji {
+	height: 1em;
+	width: 1em;
+	margin: 0 0.05em 0 0.1em;
+	vertical-align: -0.1em;
+	cursor: text;
+}
+/*! bye uwuwuwuuwuwuwuwuwuwuuwuwwwuwuwuwuuwuwuwuwwu :D */
