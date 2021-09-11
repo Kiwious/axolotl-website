@@ -5,21 +5,22 @@
 	--red: #f04747;
 }
 /* Main */
+
 html,
 body {
-	padding: 80px 80px 0px 80px;
+    padding-left: 5px;
 	text-align: left;
-	background-color: #36393f;
 	scroll-behavior: smooth;
 	image-rendering: optimizeQuality;
 	shape-rendering: geometricPrecision;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
     background-color: #7289da;
     background: url(img/landing.png);
-    background-size: cover;
+    background-size: 150%;
 	background-position: bottom center;
-
+    margin: 0;
 }
+
 li {
 	list-style: disc;
 	font-family: "text", sans-serif;
@@ -27,18 +28,19 @@ li {
 #logo {
 	transition: 0.2s;
 }
+
 h1,
 h2,
 h4,
 h5,
 h6 {
 	font-family: "Uni Sans Heavy";
-	font-weight: 500;
-	color: #7289da;
+	font-weight: 1000;
+	color: var(--blurple);
 	text-rendering: optimizeSpeed;
 }
 a {
-	color: #7b95f1;
+	color: #ffffff;
 	font-family: "text2", sans-serif;
 	font-weight: 500;
 	text-decoration: none;
@@ -47,7 +49,7 @@ p,
 li {
 	font-family: "text2", sans-serif;
 	font-size: large;
-	color: #dcddde;
+	color: var(--blurple);
 	text-decoration: none;
 	word-break: break-word;
 }
@@ -117,44 +119,61 @@ li {
 
 /* Header */
 header {
-	width: 100%;
-	height: 69px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: #292b2f;
-	z-index: 1;
-    box-shadow: 5px 4px #23272A;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
 }
+
 #logo {
 	width: 50px;
-	float: left;
+	float: none;
 	margin: 5px 0 0 25px;
 }
 #logo:hover {
 	opacity: 0.8;
+    transition: 0.2s;
 }
 #logo img {
 	margin-top: 2px;
 	width: 100%;
 }
-header nav {
-	float: right;
-	margin: 10px 30px 0 0;
-	margin-top: 15px;
-}
-header nav ul li:hover {
-	opacity: 0.8;
-}
-header nav ul li {
-	transition: 0.2s;
-	float: left;
-	margin-left: 16px;
+
+.navbar ul {
     list-style: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
-header nav ul {
-	margin-top: 10px;
+
+.navbar li {
+    display: inline-block;
+
 }
+
+.navbar a {
+    text-decoration: none;
+    color: var(--blurple);
+    width: 100px;
+    display: block;
+    padding: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+
 header h1 {
 	text-align: left;
 	font-size: 25px;
@@ -302,6 +321,7 @@ img.emoji {
 	#main-nav {
 		font-size: 10px;
 		text-decoration: none;
+        text-align: center;
 	}
 	#home h1 {
 		font-size: 160px;
@@ -392,4 +412,14 @@ img.emoji {
 	vertical-align: -0.1em;
 	cursor: text;
 }
+
+footer {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
 /*! bye uwuwuwuuwuwuwuwuwuwuuwuwwwuwuwuwuuwuwuwuwwu :D */
