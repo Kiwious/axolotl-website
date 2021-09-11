@@ -6,8 +6,7 @@
 }
 /* Main */
 
-html,
-body {
+html, body {
     padding: 0;
 	text-align: left;
 	scroll-behavior: smooth;
@@ -26,11 +25,7 @@ li {
 	font-family: "text", sans-serif;
 }
 
-h1,
-h2,
-h4,
-h5,
-h6 {
+h1, h2, h4, h5, h6 {
 	font-family: "Uni Sans Heavy", sans-serif;
 	color: var(--blurple);
 	text-rendering: optimizeSpeed;
@@ -41,8 +36,8 @@ a {
 	font-weight: 500;
 	text-decoration: none;
 }
-p,
-li {
+
+p, li {
 	font-family: "text2", sans-serif;
 	font-size: large;
 	color: var(--blurple);
@@ -226,6 +221,7 @@ img.emoji {
 	vertical-align: -0.1em;
 	cursor: text;
 }
+
 /* Fonts*/
 @font-face {
 	font-family: "Uni Sans Heavy";
