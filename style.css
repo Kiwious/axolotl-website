@@ -8,7 +8,7 @@
 
 html,
 body {
-    padding-left: 5px;
+    padding: 0;
 	text-align: left;
 	scroll-behavior: smooth;
 	image-rendering: optimizeQuality;
@@ -24,9 +24,6 @@ body {
 li {
 	list-style: disc;
 	font-family: "text", sans-serif;
-}
-#logo {
-	transition: 0.2s;
 }
 
 h1,
@@ -52,7 +49,7 @@ li {
 	text-decoration: none;
 	word-break: break-word;
 }
-.hrlol {
+hr {
 	margin: 0px;
 	height: 2px;
 	width: 175px;
@@ -135,8 +132,8 @@ header {
 	margin: 5px 0 0 25px;
 }
 #logo:hover {
-	opacity: 0.8;
     transition: 0.2s;
+	opacity: 0.8;
 }
 #logo img {
 	margin-top: 2px;
@@ -153,7 +150,6 @@ header {
 
 .navbar li {
     display: inline-block;
-
 }
 
 .navbar a {
@@ -169,6 +165,7 @@ header {
 }
 
 .navbar a:hover {
+    transition: 0.2s;
     opacity: 0.5;
 }
 
